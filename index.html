@@ -2,39 +2,20 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>AR QR Code Hunt</title>
+  <title>AR QR Code Hunt - Choose Your Path</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      margin: 20px;
-    }
-    .link-container {
-      margin: 20px;
-    }
-    a {
-      display: block;
-      margin: 10px;
-      padding: 10px;
-      background-color: #007BFF;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-    a:hover {
-      background-color: #0056b3;
-    }
+    body { font-family: Arial, sans-serif; text-align: center; margin: 20px; }
+    .button { display: inline-block; margin: 10px; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; }
+    .button:hover { background-color: #0056b3; }
   </style>
 </head>
 <body>
-  <h1>Welcome to the AR QR Code Hunt</h1>
-  <p>Scan the QR codes to start the hunt for hidden gifts! Click on the links below to test each direction.</p>
-  <div class="link-container">
-    <a href="html/down.html" target="_blank">Test Down Direction</a>
-    <a href="html/up.html" target="_blank">Test Up Direction</a>
-    <a href="html/left.html" target="_blank">Test Left Direction</a>
-    <a href="html/right.html" target="_blank">Test Right Direction</a>
-    <a href="html/forward.html" target="_blank">Test Forward Direction</a>
-  </div>
+  <h1>Choose Your Path</h1>
+  <p>Select the direction to continue:</p>
+  <a href="down.html" class="button">Move Down</a>
+  <a href="forward.html" class="button">Move Forward</a>
+  <a href="left.html" class="button">Move Left</a>
+  <a href="right.html" class="button">Move Right</a>
+  <a href="final.html" class="button">Find the Final Gift</a>
 </body>
 </html>
